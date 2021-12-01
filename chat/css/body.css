@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#2f3542;
+    font-family: 'Raleway Medium';
+    display: block;
+
+   
+}
+
+.background-wrapper{
+    margin: 5vh auto;
+    /* border: solid 1px; */
+    background-color: #ffffff;
+    width: 145vh;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    
+}
+

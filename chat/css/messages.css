@@ -1,0 +1,80 @@
+.message-wrapper{
+    display: flex;
+    flex-direction: row;
+    padding: 12px 0;
+    align-items: right;
+    justify-content: flex-end;
+    max-width: 60vh;
+    margin-left: 36vh;
+
+  
+  
+}
+.message-box-style {
+    width: 0; 
+    height: 0; 
+    border-top: 0px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #5352ed;
+  
+
+}
+.message-box{
+    background-color: #5352ed;
+    padding: 20px 25px;
+    text-align: left;
+    max-width: 60vh;
+    border-radius: 14px 0px 14px 14px;
+ 
+
+
+   
+}
+
+.message-box-p{
+    color: white;
+    line-height: 23px;
+    max-width: 60vh;
+    height: 100%;  
+}
+
+
+/* Estilização das mensagens dos contatos */
+
+.contact-message-wrapper{
+    display: flex;
+    flex-direction: row;
+    padding: 12px 0;
+    align-items: right;
+    justify-content: flex-start;
+    max-width: 60vh;
+    margin-left: 0vh;
+   
+ 
+  
+}
+.contact-message-box-style {
+    width: 0; 
+    height: 0; 
+    border-top: 0px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #2f3542;
+
+}
+.contact-message-box{
+    background-color: #2f3542;
+    padding: 20px 25px;
+    text-align: left;
+    max-width: 60vh;
+    border-radius: 0px 14px 14px 14px;
+
+   
+}
+
+.contact-message-box-p{
+    color: white;
+    line-height: 23px;
+    max-width: 60vh;
+    height: 100%;  
+}
+

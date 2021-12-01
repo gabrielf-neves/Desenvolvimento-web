@@ -1,0 +1,41 @@
+.emojis-wrapper{
+    
+    width: 100vh;
+    padding: 15px 10px;
+    background-color: #f1f2f6;
+    position: absolute;
+    z-index: 1;
+    top: 80.6vh;
+    left: 74.9vh;
+    display: inline-block;
+    display: none;
+ 
+}
+
+.close-emoji-wrapper{
+    
+ 
+    width: 100vh;
+    padding: 15px 10px;
+    background-color: #f1f2f6;
+    position: absolute;
+    z-index: 1;
+    top: 80.6vh;
+    left: 74.9vh;
+    display: inline-block;
+    position: absolute;
+
+}
+
+.emoji-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.emoji-item{
+    font-size: 16pt;
+    padding:0px 5px;
+    cursor: pointer;
+}
+
